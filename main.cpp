@@ -28,7 +28,7 @@ int lucky;
     
     lucky = first.length();
 
-    cout<<"Your lucky number is "<<lucky<<endl;
+    cout<<"your lucky number is "<<lucky<<endl;
 
     if(first[0] == 'A' && first[0] == 'E' && first[0] == 'I' && first[0] == 'O' && first[0] == 'U' && first[0] == 'a' && first[0] == 'e' && first[0] == 'i' && first[0] == 'o' && first[0] == 'u'){
 
