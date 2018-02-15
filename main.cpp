@@ -30,7 +30,7 @@ int lucky;
 
     cout<<"your lucky number is "<<lucky<<endl;
 
-    if(first[0] == 'A' && first[0] == 'E' && first[0] == 'I' && first[0] == 'O' && first[0] == 'U' && first[0] == 'a' && first[0] == 'e' && first[0] == 'i' && first[0] == 'o' && first[0] == 'u'){
+    if(first[0] == 'A' || first[0] == 'E' || first[0] == 'I' || first[0] == 'O' || first[0] == 'U' || first[0] == 'a' || first[0] == 'e' || first[0] == 'i' || first[0] == 'o' || first[0] == 'u'){
 
     cout<<"you are destined to be famous!"<<endl; 
 
@@ -42,7 +42,9 @@ int lucky;
 
    }
 
-   if(last[0] == 'a' && last[0] == 'e' && last[0] == 'i' && last[0] == 'o' && last[0] == 'u'){
+   int lv = last.length();
+
+    if(last[lv-1] == 'a' || last[lv-1] == 'e' || last[lv-1] == 'i' || last[lv-1] == 'o' || last[lv-1] == 'u'){
 
    cout<<"You have already met your true love."<<endl;
 
