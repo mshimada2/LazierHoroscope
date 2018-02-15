@@ -46,7 +46,7 @@ int lucky;
 
     if(last[lv-1] == 'a' || last[lv-1] == 'e' || last[lv-1] == 'i' || last[lv-1] == 'o' || last[lv-1] == 'u'){
 
-   cout<<"You have already met your true love."<<endl;
+   cout<<"you have already met your true love."<<endl;
 
    }
 
