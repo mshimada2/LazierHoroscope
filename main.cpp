@@ -13,8 +13,12 @@ string last;
 int lucky;
   //get user input
 
-  cout<<"Please enter your first and last name: "<<endl;
-  cin>>first>>last;
+  cout<<"What is your first name?"<<endl;
+  cin>>first;
+
+  cout<<"What is your last name? "<<endl;
+  cin>>last;
+
 
 
     cout<<"Welcome, "<<first[0]<<"."<<last[0]<<"."<<", here is your fortune... "<<endl;
